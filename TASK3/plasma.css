@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgoldenrodyellow
+}
+header{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+.head{
+    float:left;
+    color:blue;
+    font-family: cursive;
+}
+nav{
+    float: right;
+}
+li{
+    display:inline;
+    padding:1rem;
+}
+li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.active{
+    color:blue;
+    font-size: medium;
+}
+.subheader{
+    color:darkorchid;
+    font-weight: bolder;
+}
+quote{
+    font-size: x-large;
+}
+.content{
+    height:400px;
+}
+.content p{
+    float: left;
+    font-size: 23px;;
+    letter-spacing: 1.2;
+}
+.content iframe{
+    float: right;
+}
+.part1 p,.container p,form{
+    font-size: 20px;
+    letter-spacing: 1.2;
+}
+.images{
+    display:flex;
+}
+.img1,.img2,.img3{
+    width:50%;
+}
+button{
+    height:40px;
+    width:100px;
+}
+.container{
+    position:relative;
+    left:50%;
+    top:60%;
+    transform:translate(-50%,-50%);
+    width:500px;
+    padding:2rem;
+    background:black;
+    box-sizing:border-box;
+    text-align:center;
+    color:white;
+}
+.gallery img{
+    width:24.5%;
+    height:600px;
+}

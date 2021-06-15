@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+header{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+.head{
+    float:left;
+    color:red;
+    font-family: cursive;
+}
+nav{
+    float: right;
+}
+li{
+    display:inline;
+    padding:1rem;
+}
+li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.active{
+    color:red;
+    font-size: medium;
+}
+.subheader{
+    color:white;
+    height:420px;
+    background-image: url("https://img.etimg.com/thumb/msid-76443288,width-1070,height-580,overlay-economictimes/photo.jpg");
+    background-size: 1600px;
+}
+.overview, .Warriors{
+    color:red;
+}
+.leftright{
+    height:350px;
+}
+.leftright h2{
+    color:red;
+}
+.leftright p{
+    color:white;
+    margin:20px 100px 20px 100px;
+    font-size: 20px;
+    letter-spacing:2px ;
+}
+.content,.image1{
+    float:left;
+    margin-left:100px;
+}
+.image,.content1{
+    float:right;
+    margin-right: 100px;;
+}
+.rightleft{
+    height:350px;
+}
+.rightleft h2{
+    color:red;
+}
+.rightleft p{
+    color:white;
+    margin:20px 100px 20px 100px;
+    font-size: 20px;
+    letter-spacing:2px ;
+}
+.subheader h2{
+    background-color:black;
+    width:750px
+}
+.song{
+    color:blue;
+}
+.song h2{
+    letter-spacing:2px;
+    justify-content: center;
+}
